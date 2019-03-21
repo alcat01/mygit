@@ -3,10 +3,10 @@
 while true ; do
 clear
 echo ""
-echo -e "\033[32m            1:Add hosts information:_\033[0m"
-echo -e "\033[32m            2:Del hosts information:_\033[0m"
-echo -e "\033[32m            3:Connect hosts:_\033[0m"
-echo -e "\033[32m            4:Quit(q) \033[0m"
+echo -e "\033[32m            1)Add hosts information\033[0m"
+echo -e "\033[32m            2)Del hosts information\033[0m"
+echo -e "\033[32m            3)Connect hosts\033[0m"
+echo -e "\033[32m            4)Quit(q)\033[0m"
 #sh ./3.sh
 printf  "\033[32m                       input:_\033[0m"
 stty erase '^H'

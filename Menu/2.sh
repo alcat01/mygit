@@ -3,7 +3,6 @@ Hosts=./hosts.cfg
 while true; do
 clear
 echo ""
-echo ""
 echo -e "\033[32m................................................\033[0m"
 echo -e "\033[32m ID Hostname IP User Port \033[0m" |awk '{printf "%-5s%-5s%-15s%-15s%-10s%-5s\n",$1,$2,$3,$4,$5,$6}'
 cat $Hosts |egrep -v "^#|^$"| awk '$0=NR" "$0' |while read line ;do
